@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Photos</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_phoitos_view">PhoitosViewActivity</string>
+    <string name="title_activity_photos_view">PhotosViewActivity</string>
+    <string name="title_activity_slideshow">SlideshowActivity</string>
+    <string name="btnPrevText"><![CDATA[< Prev]]></string>
+    <string name="btnNextText"><![CDATA[Next >]]></string>
+    <string name="title_activity_display_image">DisplayImageActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search_selector">Search Selector</string>
+    <string name="title_activity_person_search">Person Search</string>
+    <string name="title_activity_location_search">Location Search</string>
+    <string name="title_activity_both_search">BothSearch</string>
+
+
+</resources>

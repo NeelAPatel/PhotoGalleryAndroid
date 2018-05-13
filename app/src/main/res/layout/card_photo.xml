@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:clickable="true"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/album_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/photoDelete"
+                android:layout_width="@dimen/ic_album_overflow_width"
+                android:layout_height="@dimen/ic_album_overflow_height"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/thumbnail"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/ic_album_overflow_margin_top"
+
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:scaleType="centerCrop"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_delete_black_48px" />
+
+            <ImageView
+                android:id="@+id/photoCopy"
+                android:layout_width="@dimen/ic_album_overflow_width"
+                android:layout_height="@dimen/ic_album_overflow_height"
+
+                android:layout_alignTop="@+id/photoDelete"
+                android:layout_centerHorizontal="true"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_content_copy_black_48px" />
+
+            <ImageView
+                android:id="@+id/photoMove"
+                android:layout_width="@dimen/ic_album_overflow_width"
+                android:layout_height="@dimen/ic_album_overflow_height"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/photoDelete"
+                android:layout_marginStart="10dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:paddingBottom="3dp"
+                android:paddingEnd="3dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="3dp"
+                android:paddingStart="3dp"
+                android:paddingTop="3dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_forward_black_48px" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.photos.team62.photos.PhotosViewActivity">
+
+    <item
+        android:id="@+id/btnSlideshow"
+        android:icon="@drawable/ic_slideshow_white_48px"
+        android:title="Slideshow"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:showAsAction="always"
+         />
+</menu>
